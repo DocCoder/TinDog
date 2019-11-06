@@ -12,8 +12,21 @@ h1 {
   line-height: 1.5;
   font-weight: 900;
 }
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 
@@ -45,30 +58,110 @@ h1 {
 .iphone-mockup  {
   width:60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features Section Icon */
+#features {
+  background-color: #fff;
+  position: relative;
+}
 .features {
-  padding: 1.875rem 15% 1.875rem 15%;
+  padding: 7% 15% 7% 15%;
+
 }
 .feature-card {
   text-align: center;
-  padding-top: 4.375rem;
-  padding-bottom: 4.375rem;
+
 }
-.feature-card h3 {
-  padding-top: 10px;
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 1.5rem;
-}
+
 .feature-card p {
   color: #8f8f8f;
+  padding: 4.5%;
 }
 
 .feature-icon {
   color: #ef8172;
+  margin-bottom: 1rem;
 }
 .feature-icon:hover {
   color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+
+  padding: 7% 15%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-card {
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 967px) {
+  #title {
+    text-align: center;
+  }
+  .iphone-mockup {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* CTA */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 4% 15% 1% 15%
+
+}
+.cta-h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #fff;
+  font-size: 2.5rem;
+}
+/* Footer */
+#footer {
+  background-color: #fff;
+  text-align: center;
+}
+.social-icons {
+  padding: 10px;
+}
+.footer p {
+  font-family: "Montserrat";
+  color: grey;
+  font-size: 0.75rem;
+}
+.social-row {
+  margin: 1.875rem auto 0.625rem auto;
 }
